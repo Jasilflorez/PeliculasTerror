@@ -1,0 +1,39 @@
+.TD-Footer{
+    background-color: rgba(0, 0, 0, 0.678);
+    grid-area: Footer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.peliculas{
+    height: 280px;
+    display: flex;
+    justify-content: center;
+}
+.peliculas:hover{
+    box-shadow: rgb(189, 9, 9) 0px 0px 15px 15px;
+    cursor: pointer;
+    zoom: 1.4;
+    border-radius: 50px;
+}
+@media (max-width: 800px) {
+    .TD-Footer{
+        grid-area: Footer;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-evenly;
+    }
+    .peliculas{
+        height: 200px;
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 15px;
+    }
+    .peliculas:hover{
+        height: 250px;
+        box-shadow: rgb(189, 9, 9) 0px 0px 15px 15px;
+        cursor: pointer;
+        zoom: 1.5;
+        border-radius: 30px;
+    }   
+}
