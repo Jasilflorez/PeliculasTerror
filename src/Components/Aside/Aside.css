@@ -55,26 +55,35 @@
         display: flex;
         align-items: center;
         flex-direction: row;
+        justify-content: space-between;
     }
     .Butto-Aside{
-        border-radius: 100px;
-        height: 45px;
-        width: 45px;
+        border-radius: 50px;
+        height: 35px;
+        width: 35px;
         margin: 0;
         font-size: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .ButtoAside2{
-        height: 25%;
+        height: 100%;
         width: 25%;
         flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-top: 0;
     }
     .Button-Aside2{
-        height: 50px;
-        width: 50px;
+        height: 35px;
+        width: 40px;
         margin: 5px;
         border: none;
         cursor: pointer;
-        font-size: 20px;
+        font-size: 25px;
+        display: flex;
+        align-items: center;
     }
     .Butto-Aside:hover{
         height: 50px;

@@ -20,21 +20,23 @@
     .TD-Footer{
         grid-area: Footer;
         display: flex;
-        align-items: center;
-        flex-direction: column-reverse;
+        justify-content: space-between;
+        flex-direction: row;
         flex-wrap: wrap;
         overflow: scroll;
-        background-color: rgba(0, 0, 0, 0.991);
+        background-color: rgb(0, 0, 0);
     }
     .peliculas{
-        height: 150px;
+        height: 180px;
         display: flex;
-        justify-content: flex-end;
         margin-top: 0px;
+        align-items: center;
+        margin: 15px;
+        border: solid white 1px;
     }
     .peliculas:hover{
         border: solid 1px white;
-        height: 160px;
+        height: 190px;
         box-shadow: rgb(189, 9, 9) 0px 0px 15px 15px;
         cursor: pointer;
         zoom: 1;
