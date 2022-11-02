@@ -16,24 +16,25 @@
     zoom: 1.4;
     border-radius: 50px;
 }
-@media (max-width: 800px) {
+@media(max-width: 800px) {
     .TD-Footer{
         grid-area: Footer;
         display: flex;
-        align-items: flex-start;
-        flex-direction: column;
-        flex-direction: row;
+        align-items: center;
+        flex-direction: column-reverse;
         flex-wrap: wrap;
-
+        overflow: scroll;
+        background-color: rgba(0, 0, 0, 0.991);
     }
     .peliculas{
         height: 150px;
         display: flex;
         justify-content: flex-end;
-        margin-top: 15px;
+        margin-top: 0px;
     }
     .peliculas:hover{
-        height: 200px;
+        border: solid 1px white;
+        height: 160px;
         box-shadow: rgb(189, 9, 9) 0px 0px 15px 15px;
         cursor: pointer;
         zoom: 1;
